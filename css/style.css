@@ -84,7 +84,6 @@ body {
     transform: rotate(180deg);
 }
 
-
 .textbox-left {
     flex: 1; 
     position: absolute;
@@ -95,7 +94,7 @@ body {
     border: 4px double #8B5A2B;
     padding: 25px;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-
+    margin: auto;
 }
 
 h1, h2, h3 {
