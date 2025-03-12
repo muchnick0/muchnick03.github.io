@@ -1,4 +1,4 @@
-@font-face {
+/*@font-face {
     font-family: 'Terminus (TTF)';
     src: url('fonts/TerminusTTF.woff2') format('woff2'),
         url('TerminusTTF.woff') format('woff');
@@ -6,7 +6,7 @@
     font-style: normal;
     font-display: swap;
 }
-
+*/
 * {
     margin: 0;
     padding: 0;
@@ -32,6 +32,13 @@
 	align-items: flex-start; 
 }
 
+.generic-container-col {
+	display: flex;
+	flex-direction: column;
+	order: -1;
+	gap: 20px;
+}
+
 .image-frame-container {
     display: flex;
     flex-direction: column; 
@@ -43,7 +50,7 @@
     display: flex;
     flex-direction: column; 
     gap: 20px;
-    order: -1;
+	order: -1;
 }
 
 .image-frame {
@@ -60,7 +67,7 @@
 body {
     background-color: #3C2F2F; 
     color: #E8D5B5; 
-    font-family: 'Terminus (TTF)';
+  /* font-family: 'Terminus (TTF)';*/
     line-height: 1.6;
 }
 
