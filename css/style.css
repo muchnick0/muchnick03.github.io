@@ -32,13 +32,19 @@
 	align-items: flex-start; 
 }
 
+.generic-container-col-l {
+	display: flex;
+	flex-direction: column;
+	order: 1;
+	gap: 20px;
+}
+
 .generic-container-col {
 	display: flex;
 	flex-direction: column;
 	order: -1;
 	gap: 20px;
 }
-
 .image-frame-container {
     display: flex;
     flex-direction: column; 
