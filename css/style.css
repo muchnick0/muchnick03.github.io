@@ -82,6 +82,7 @@ body {
 	flex-grow: 4;
 	justify-self: strech;
     min-width: 600px; 
+    width: 100%;
     position: relative;
     background-color: #4A2C2A;
     border: 4px double #8B5A2B;
@@ -147,4 +148,14 @@ button {
 button:hover {
     background-color: #D4A017;
     color: #3C2F2F;
+}
+
+@media (max-width: 768px) {
+    .text-box {
+        min-width: 100%;
+        max-width: 100%;
+        padding: 20px;
+        font-size: 1em;
+    }
+
 }
