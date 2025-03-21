@@ -81,7 +81,8 @@ body {
 	flex: 1;
 	flex-grow: 4;
 	justify-self: strech;
-    min-width: 600px; 
+    max-width: 800px;
+    min-width: 500px; 
     width: 100%;
     position: relative;
     background-color: #4A2C2A;
@@ -94,8 +95,7 @@ body {
 
 .textbox-left {
     flex: 1; 
-    min-width: 200px; 
-    max-width: 200px;
+    width: 100%;
     position: relative;
     background-color: #4A2C2A;
     border: 4px double #8B5A2B;
@@ -150,12 +150,20 @@ button:hover {
     color: #3C2F2F;
 }
 
-@media (max-width: 768px) {
-    .text-box {
-        min-width: 100%;
-        max-width: 100%;
-        padding: 20px;
-        font-size: 1em;
+@media (max-width: 320px) {
+    .container {
+        align-items: center;
+        transform: scale(0.8);
+        transform-origin: top left;
+        margin-left: 500px;
     }
+}
 
+@media (max-width: 768px) {
+    .container {
+        align-items: center;
+        transform: scale(0.8);
+        transform-origin: top left;
+        margin-left: 500px;
+    }
 }
