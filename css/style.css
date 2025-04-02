@@ -142,9 +142,9 @@ a:hover {
 }
 
 button {
-    background-color: #8B5A2B;
-    color: #E8D5B5;
-    border: 2px solid #D4A017;
+    background-color: #301B1A;
+    color: #D4A017;
+    border: 2px solid #170E0E;
     padding: 8px 16px;
     font-family: 'Cinzel', serif;
     cursor: pointer;
@@ -152,8 +152,7 @@ button {
 }
 
 button:hover {
-    background-color: #D4A017;
-    color: #3C2F2F;
+    background-color: #2B0503;
 }
 
 @media (max-width: 320px) {
@@ -173,3 +172,5 @@ button:hover {
         margin-left: 500px;
     }
 }
+
+#more {display: none;}
