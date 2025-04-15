@@ -119,6 +119,51 @@ h1 {
     border-bottom: 2px solid #D4A017;
 }
 
+/*.box {
+    position: relative;
+    border: 4px double #D4A017;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    background: #1b1b1b;
+    width: 85%;
+}
+
+.list-box {
+    order: -1;
+    width: 85%;
+    padding: 20px;
+    border: 4px double #8B5A2B;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    background-color: #2B2B2B;
+}*/
+
+.list-box {
+    order: -1;
+    background-color: #4F3130; 
+    border: 3px double #8B5A2B; 
+    padding: 15px;
+    width: 80%; 
+    max-width: 600px; 
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2); 
+    position: relative;
+}
+
+.list-box ul {
+    text-align: left; /* Override the centered ul from base style */
+    list-style-type: square; /* Adds some visual interest */
+    color: #E8D5B5; /* Matches body text color */
+    margin: 0;
+    padding-left: 20px; /* Proper indentation for list items */
+}
+
+.list-box li {
+    width: 100%; /* Override the 50% width from base li style */
+    margin-bottom: 10px; /* Spacing between list items */
+}
+
+.list-box li:last-child {
+    margin-bottom: 0; /* Remove margin from last item */
+}
+
 p {
     margin-bottom: 15px;
     text-align: center;
@@ -174,3 +219,95 @@ button:hover {
 }
 
 #more {display: none;}
+
+ul {
+    text-align: center;
+    list-style-position: inside;
+}
+
+ol {
+    text-align: center;
+    list-style-position: inside;
+}
+
+li {
+    width: 50%;
+}
+
+.code-block {
+  position: relative;
+  background-color: #1e1e1e;
+  border-radius: 8px;
+  padding: 1rem;
+  margin: 1rem 0;
+  font-family: 'Consolas', 'Monaco', monospace;
+  color: #d4d4d4;
+  overflow-x: auto;
+  width: 100%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.language-label {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #3c3c3c;
+  color: #ffffff;
+  padding: 0.2rem 0.6rem;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+pre {
+  text-align: left;
+  background: transparent;
+  margin: 0;
+  overflow: visible;
+  box-sizing: border-box;
+  padding: 1rem;
+  width: 100%;
+  white-space: pre-wrap;
+}
+
+code {
+  display: block;
+}
+
+/* Basic pseudo-syntax highlighting */
+.language-python .keyword {
+  color: #ff79c6; /* Keywords like def, return */
+}
+
+.language-python .string {
+  color: #f1fa8c; /* Strings */
+}
+
+.language-python .function {
+  color: #50fa7b; /* Function names */
+}
+
+.language-python .comment {
+  color: #6272a4; /* Comments */
+}
+
+/* Scrollbar styling for overflow */
+.code-block::-webkit-scrollbar {
+  height: 8px;
+}
+
+.code-block::-webkit-scrollbar-track {
+  background: #2d2d2d;
+  border-radius: 4px;
+}
+
+.code-block::-webkit-scrollbar-thumb {
+  background: #555;
+  border-radius: 4px;
+}
+
+.code-block::-webkit-scrollbar-thumb:hover {
+  background: #777;
+}
+
