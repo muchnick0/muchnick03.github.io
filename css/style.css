@@ -93,21 +93,6 @@ body {
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
-.text-box-large {
-	flex: 1;
-	flex-grow: 4;
-	justify-self: strech;
-    max-width: 1200px;
-    min-width: 1000px; 
-    width: 100%;
-    position: relative;
-    background-color: #4A2C2A;
-    border: 4px double #8B5A2B;
-    padding: 40px;
-    margin: 0; 
-	order: 0;
-    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-}
 .textbox-left {
     flex: 1; 
     width: 100%;
